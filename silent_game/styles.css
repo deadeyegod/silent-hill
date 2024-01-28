@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  background-image:url(./images/8k8pg2iuvm641.jpg);
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(./SLNTHLC.TTF);
+}
+
+#level-title {
+  font-family: myFirstFont;
+  font-size: 10rem;
+  margin:  5%;
+  color: #FEF2BF;
+  
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.james {
+  background-image: url(./images/try1.png) ;
+  background-position: center;
+
+}
+
+.maria {
+  background-image: url(./images/MariaSave2.jpg);
+  background-position: center;
+}
+
+.anjela {
+  background-image: url(./images/anjela.png);
+}
+
+.eddie {
+  background-image: url(./images/eddie.png);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
